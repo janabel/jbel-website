@@ -34,7 +34,7 @@ export function App() {
               <Route path="/words" element={<Words />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/art" element={<Art />} />
-              <Route path="/resume" element={<Resume />} />
+              {/* <Route path="/resume" element={<Resume />} /> */}
             </Routes>
           </div>
         </div>

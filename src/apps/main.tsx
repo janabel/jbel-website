@@ -7,3 +7,7 @@ document.body.appendChild(div);
 
 const root = ReactDOM.createRoot(div);
 root.render(<App />);
+
+function Test() {
+  return <div>hello this is a test</div>;
+}
