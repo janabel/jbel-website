@@ -1,5 +1,6 @@
+// custom.d.ts
 declare module "*.mdx" {
   import { ComponentType } from "react";
-  const MDXComponent: ComponentType<any>;
+  const MDXComponent: ComponentType;
   export default MDXComponent;
 }
