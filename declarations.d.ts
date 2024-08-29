@@ -4,3 +4,8 @@ declare module "*.mdx" {
   const MDXComponent: ComponentType;
   export default MDXComponent;
 }
+
+declare module "*.png" {
+  const value: string;
+  export default value;
+}
