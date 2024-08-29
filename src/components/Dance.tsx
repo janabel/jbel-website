@@ -93,7 +93,7 @@ const Dance = () => {
     <div className="page-text fade-in-text" ref={divRef}>
       <p style={{ marginBottom: 0 }}>
         i've been dancing since i was 3 years old, starting out with Chinese
-        traditional dance.
+        classical and folk dance.
       </p>
       <p style={{ marginTop: 0, marginBottom: 0 }}>
         throughout my years dancing, i've also done ballet, jazz, and

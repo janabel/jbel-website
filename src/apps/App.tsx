@@ -21,13 +21,13 @@ export function App() {
         <div className="main-content">
           <nav>
             <div className="ul nav">
-              <Link to="/">Home</Link>
-              <Link to="/about">About</Link>
-              <Link to="/words">Words</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/dance">Dance</Link>
+              <Link to="/">home</Link>
+              <Link to="/about">about</Link>
+              <Link to="/words">words</Link>
+              <Link to="/projects">projects</Link>
+              <Link to="/dance">dance</Link>
               {/* <Link to="/art">Art</Link> */}
-              <Link to="/resume">Resume</Link>
+              <Link to="/resume">resume</Link>
             </div>
           </nav>
           <div className="page-display">
