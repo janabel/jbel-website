@@ -3,10 +3,40 @@ import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <div className="page-text">
+    <div className="page-text fade-in-text">
       <div className="current-next">
-        <div className="current">current</div>
-        <div className="next">next</div>
+        <div className="current">
+          <h3>current quests</h3>
+          <ul>
+            <li style={{ marginBottom: 0 }}>
+              applied cryptography with <a href="https://0xparc.org/">0xparc</a>
+            </li>
+            <li style={{ marginBottom: 0 }}>
+              web development (new personal website woohoo!)
+            </li>
+            <li style={{ marginBottom: 0 }}>
+              house dance at the lovely{" "}
+              <a href="https://dancemissiontheater.org/">
+                dance mission theatre
+              </a>
+            </li>
+            <li style={{ marginBottom: 0 }}>
+              volunteering at the{" "}
+              <a href="https://www.thefoodprogram.org/">
+                haight ashbury food program
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div className="next">
+          <h3>up next</h3>
+          <ul>
+            <li style={{ marginBottom: 0 }}>housing and land use policy</li>
+            <li style={{ marginBottom: 0 }}>civic tech</li>
+            <li style={{ marginBottom: 0 }}>making more art</li>
+            <li style={{ marginBottom: 0 }}>volunteering in Boston (home)</li>
+          </ul>
+        </div>
       </div>
       <p>
         i'm a generalist with too many interests too easily summarize :'), but
@@ -14,8 +44,8 @@ const About = () => {
         cryptography, urban planning and design, and combinatorics and
         theoretical computer science. i like to daydream about
         community-building and what it means to build a just community at
-        various scales. i also love love love all kinds of art - dance, music,
-        and visual arts.
+        various scales. i also love love love all kinds of art, including dance,
+        music, and visual arts.
       </p>
       <p>
         in college, i did a good amount of math research through
@@ -30,7 +60,8 @@ const About = () => {
         some logistical information: i'm currently on a gap year before going to
         Harvard in 2025 fall for my math PhD (back to my home!). in the
         meantime, i'm trying to explore as much as possible outside of my
-        comfort zone.
+        comfort zone. if any of this sounds interesting to you, please reach
+        out! i'd love to chat :)
       </p>
     </div>
   );

@@ -1,3 +1,21 @@
+.current-next {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.li-small {
+  font-size: 16px;
+  margin-bottom: 0px;
+  line-height: 1.5;
+}
+
+.next {
+  position: relative;
+  right: 15%;
+}
+
 ul li {
   font-size: 16px;
   margin-bottom: 8px;
@@ -6,18 +24,90 @@ ul li {
 
 p {
   margin-bottom: 1.5em;
+  /* background-color: #acf08f; */
+}
+
+a {
+  color: #000000;
+}
+
+a:hover {
+  /* color: red; */
+  color: rgba(35, 152, 163, 255);
+}
+
+@keyframes fadeInText {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Apply the animation to the text */
+.fade-in-text {
+  opacity: 0;
+  animation: fadeInText 1s ease-in 0s forwards;
+}
+
+.fade-in-text-delay {
+  opacity: 0;
+  animation: fadeInText 1s ease-in 2s forwards; /* 2s delay before starting */
+}
+
+.fade-in-text-delay-2 {
+  opacity: 0;
+  animation: fadeInText 1s ease-in 4s forwards; /* 2s delay before starting */
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
+
+.fade-in {
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+
+.fade-in-delay {
+  opacity: 1;
+  transition: opacity 1s ease-in;
+  animation-delay: 2s; /* Delay the start by 0.5 seconds */
+}
+
+.fade-in-delayy {
+  opacity: 1;
+  transition: opacity 1s ease-in;
+  animation-delay: 4s; /* Delay the start by 0.5 seconds */
+}
+
+.youtube-display {
+  opacity: 1; /* Default opacity */
+}
+
+.youtube-vid {
+  /* position: "absolute"; */
+  left: 2%;
+  top: 25%;
+  width: 60%;
+  /* width: 100px; */
+  height: auto;
 }
 
 .page-display {
   background-color: antiquewhite;
-  width: 100%;
   display: flex;
+  position: relative;
+  width: 100%;
 }
 
 .main-content-wrapper {
   height: 100%;
   width: 100%;
-  background-color: #a696c0;
+  /* background-color: #a696c0; */
+  background-color: antiquewhite;
 }
 
 .main-content {
@@ -37,8 +127,9 @@ p {
   /* flex: 1; */
   padding: 24px;
   box-sizing: border-box;
-  background-color: #5573a9;
-  /* height: 100%; */
+  /* background-color: #5573a9; */
+  background-color: antiquewhite;
+  height: 15%;
 }
 
 .body-wrapper.clearfix {
@@ -54,7 +145,9 @@ h1 {
 
 nav {
   display: flex;
-  background-color: purple;
+  /* background-color: purple; */
+  background-color: antiquewhite;
+
   flex-direction: column;
   width: 15%;
   /* position: relative; */
@@ -71,7 +164,9 @@ nav {
 
 .ul.nav {
   box-sizing: border-box;
-  background-color: #a5c4ff;
+  border: 1px solid rgba(35, 152, 163, 255);
+  /* background-color: #a5c4ff; */
+  background-color: antiquewhite;
   padding: 10px;
   font-size: 16px;
   display: flex;
@@ -82,8 +177,22 @@ nav {
 
 .page-text {
   display: flex;
+  position: relative;
   flex-direction: column;
+  width: 100%;
+  align-items: start;
+  padding: 16px;
+  padding-left: 60px;
+  padding-right: 68px;
 }
+
+/* .video-display-container {
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  flex: 1;
+  box-sizing: border-box;
+} */
 
 html {
   height: 100%;
@@ -95,7 +204,8 @@ body {
   margin: 0;
   padding: 0;
   /* text-align: center; */
-  background-color: rgb(238, 191, 191);
+  /* background-color: rgb(238, 191, 191); */
+  background-color: antiquewhite;
 }
 
 header {
@@ -109,18 +219,73 @@ main {
   background-color: #acf08f;
 }
 
+.filter-button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
 button {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
+  padding: 4px 16px;
+  font-family: "Courier New", Courier, monospace;
+  /* background-color: #007bff; */
+  color: #000000;
+  border: 1px solid black;
+  /* border-radius: 5px; */
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
-button:hover {
-  background-color: #0056b3;
+.choreo {
+  background-color: rgb(207, 93, 122);
+}
+
+.choreo:hover,
+.choreo-gone:hover {
+  background-color: rgb(231, 154, 173);
+}
+
+.choreo-gone {
+  background-color: rgb(243, 201, 211);
+}
+
+.fxn {
+  background-color: rgb(140, 109, 178);
+}
+
+.fxn:hover,
+.fxn-gone:hover {
+  background-color: rgb(180, 158, 206);
+}
+
+.fxn-gone {
+  background-color: rgb(208, 194, 223);
+}
+
+.teach {
+  background-color: rgb(243, 181, 0);
+}
+
+.teach:hover,
+.teach-gone:hover {
+  background-color: rgb(255, 219, 110);
+}
+
+.teach-gone {
+  background-color: rgb(238, 219, 160);
+}
+
+.other {
+  background-color: rgb(88, 140, 183);
+}
+
+.other:hover,
+.other-gone:hover {
+  background-color: rgb(133, 180, 219);
+}
+
+.other-gone {
+  background-color: rgb(191, 214, 234);
 }
 
 footer {

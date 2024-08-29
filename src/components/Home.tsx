@@ -1,11 +1,14 @@
 import React from "react";
+import homeImage from "../../public/home.png";
+import "../../public/styles.css";
 
 const Home = () => {
   return (
     <div className="page-text">
-      <p>hi!! my name is janabel, and welcome to my humble abode :)</p>
-      <p>
-        please feel free to click on any links that look interesting to you!
+      <p className="fade-in-text">welcome! i'm janabel :)</p>
+      <img src={homeImage} width={"50%"} className="fade-in-text-delay"></img>
+      <p style={{ left: "80%" }} className="fade-in-text-delay-2">
+        please feel free to click on any links that look interesting to you~
       </p>
     </div>
   );

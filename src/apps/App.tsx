@@ -14,6 +14,7 @@ import "../../public/styles.css";
 
 export function App() {
   return (
+    // <div style={{ height: "100%" }}>
     <Router>
       {/* <div className="body-wrapper clearfix"> */}
       <div className="main-content-wrapper">
@@ -25,7 +26,7 @@ export function App() {
               <Link to="/words">Words</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/dance">Dance</Link>
-              <Link to="/art">Art</Link>
+              {/* <Link to="/art">Art</Link> */}
               <Link to="/resume">Resume</Link>
             </div>
           </nav>
@@ -36,7 +37,7 @@ export function App() {
               <Route path="/words" element={<Words />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/dance" element={<Dance />} />
-              <Route path="/art" element={<Art />} />
+              {/* <Route path="/art" element={<Art />} /> */}
               <Route path="/resume" element={<Resume />} />
             </Routes>
           </div>
@@ -44,5 +45,6 @@ export function App() {
       </div>
       {/* </div> */}
     </Router>
+    // </div>
   );
 }

@@ -6,9 +6,8 @@ import ResumeContent from "../markdown/resume.mdx";
 
 const Resume = () => {
   return (
-    <div>
+    <div className="page-text fade-in-text">
       <ResumeContent />
-      {/* <pre>{resumeMarkdown}</pre> */}
     </div>
   );
 };
