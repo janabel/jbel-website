@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "test": "npm run test",
-    "start": "npx parcel src/apps/index.html"
+    "start": "npx parcel src/apps/index.html",
+    "build": "parcel build src/apps/index.html --dist-dir dist"
   },
   "repository": {
     "type": "git",

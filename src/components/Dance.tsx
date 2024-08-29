@@ -110,7 +110,7 @@ const Dance = () => {
 
       <div className="filter-button-container">
         <FilterButton
-          text={"choreo"}
+          text={"my choreo"}
           danceType={"choreo"}
           filters={filters}
           clickFunction={toggle}
