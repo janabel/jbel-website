@@ -48,22 +48,22 @@ a:hover {
 /* Apply the animation to the text */
 .fade-in-text {
   opacity: 0;
-  animation: fadeInText 0.5s ease-in 0s forwards;
+  animation: fadeInText 0.75s ease-in 0s forwards;
 }
 
 .fade-in-text-delay {
   opacity: 0;
-  animation: fadeInText 0.5s ease-in 1s forwards; /* 2s delay before starting */
+  animation: fadeInText 0.75s ease-in 1.5s forwards; /* 2s delay before starting */
 }
 
 .fade-in-text-delay-2 {
   opacity: 0;
-  animation: fadeInText 0.5s ease-in 2s forwards; /* 2s delay before starting */
+  animation: fadeInText 0.75s ease-in 3s forwards; /* 2s delay before starting */
 }
 
 .fade-out {
   opacity: 0;
-  transition: opacity 0.5s ease-out;
+  transition: opacity 0.75s ease-out;
 }
 
 .fade-in {
