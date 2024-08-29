@@ -1,6 +1,7 @@
 import React from "react";
 import * as ReactDOM from "react-dom/client";
 import { App } from "./App";
+import process from "process";
 
 const div = document.createElement("div");
 div.style.height = "85%"; // Set the height of the root element
