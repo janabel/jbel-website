@@ -61,7 +61,7 @@ export function App() {
               <Link to="/about">about</Link>
               <Link to="/dance">dance</Link>
               <Link to="/words">words</Link>
-              <Link to="/projects">projects</Link>
+              {/* <Link to="/projects">projects</Link> */}
               {/* <Link to="/art">Art</Link> */}
               <Link to="/resume">resume</Link>
             </div>
@@ -72,7 +72,7 @@ export function App() {
               <Route path="/about" element={<About />} />
               <Route path="/dance" element={<Dance />} />
               <Route path="/words" element={<Words />} />
-              <Route path="/projects" element={<Projects />} />
+              {/* <Route path="/projects" element={<Projects />} /> */}
               {/* <Route path="/art" element={<Art />} /> */}
               <Route path="/resume" element={<Resume />} />
             </Routes>
