@@ -8,7 +8,10 @@ const Words = () => {
         <a href="https://janabel.substack.com/">jbel's substack</a>! offloading
         some refactored journal entries soon.
       </p>
-      <p>here are my favorite posts right now:</p>
+      <p>
+        here are my favorite posts right now (hopefully this section actually
+        makes sense one day):
+      </p>
       <ul>
         <li style={{ marginBottom: 0 }}>
           <a href="https://janabel.substack.com/p/an-ode-to-dance">

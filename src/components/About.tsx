@@ -53,7 +53,7 @@ const About = () => {
         undergraduates). in a past life, i also participated in math olympiads
         such as the USAMO and the{" "}
         <a href="https://www.egmo.org/people/person1512/">EGMO</a>. outside of
-        academics, i spent most of my time choreographing and dancing (see{" "}
+        academics, i've spent most of my time choreographing and dancing (see{" "}
         <Link to="/dance">Dance</Link>).
       </p>
       <p>

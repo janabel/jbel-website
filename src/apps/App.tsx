@@ -11,21 +11,57 @@ import Dance from "../components/Dance";
 import Resume from "../components/Resume";
 
 import "../../public/styles.css";
+import Insta from "../../public/insta.png";
+import Email from "../../public/email.png";
+import Messenger from "../../public/msger.png";
+import Twitter from "../../public/twitter.png";
+import Curius from "../../public/curius.png";
 
 export function App() {
   return (
-    // <div style={{ height: "100%" }}>
     <Router>
-      {/* <div className="body-wrapper clearfix"> */}
       <div className="main-content-wrapper">
+        <div className="socials">
+          {/* manually adjusting bc images handdrawn */}
+          <a
+            href="https://www.instagram.com/janabel.x/"
+            style={{ paddingRight: "12px" }}
+          >
+            <img src={Insta} width={"55%"} className="social-image" />
+          </a>
+          <a
+            href="mailto:janabeltxia@gmail.com"
+            style={{ paddingRight: "16px" }}
+          >
+            <img src={Email} width={"50%"} className="social-image" />
+          </a>
+          <a
+            href="https://www.messenger.com/t/janabelxia"
+            style={{ paddingRight: "16px" }}
+          >
+            <img src={Messenger} width={"50%"} className="social-image" />
+          </a>
+          <a
+            href="https://twitter.com/JanabelXia"
+            style={{ paddingRight: "16px", paddingTop: "4px" }}
+          >
+            <img src={Twitter} width={"50%"} className="social-image" />
+          </a>
+          <a
+            href="https://curius.app/janabel-xia"
+            style={{ paddingRight: "16px", paddingTop: "8px" }}
+          >
+            <img src={Curius} width={"50%"} className="social-image" />
+          </a>
+        </div>
         <div className="main-content">
           <nav>
             <div className="ul nav">
               <Link to="/">home</Link>
               <Link to="/about">about</Link>
+              <Link to="/dance">dance</Link>
               <Link to="/words">words</Link>
               <Link to="/projects">projects</Link>
-              <Link to="/dance">dance</Link>
               {/* <Link to="/art">Art</Link> */}
               <Link to="/resume">resume</Link>
             </div>
@@ -34,17 +70,15 @@ export function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
+              <Route path="/dance" element={<Dance />} />
               <Route path="/words" element={<Words />} />
               <Route path="/projects" element={<Projects />} />
-              <Route path="/dance" element={<Dance />} />
               {/* <Route path="/art" element={<Art />} /> */}
               <Route path="/resume" element={<Resume />} />
             </Routes>
           </div>
         </div>
       </div>
-      {/* </div> */}
     </Router>
-    // </div>
   );
 }

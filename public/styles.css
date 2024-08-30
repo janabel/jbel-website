@@ -32,8 +32,12 @@ a {
 }
 
 a:hover {
-  /* color: red; */
   color: rgba(35, 152, 163, 255);
+}
+
+.social-image:hover {
+  filter: brightness(0) saturate(100%) hue-rotate(0deg) sepia(1) saturate(10)
+    hue-rotate(-50deg);
 }
 
 @keyframes fadeInText {
@@ -48,39 +52,27 @@ a:hover {
 /* Apply the animation to the text */
 .fade-in-text {
   opacity: 0;
-  animation: fadeInText 0.75s ease-in 0s forwards;
+  animation: fadeInText 0.5s ease-in 0s forwards;
 }
 
 .fade-in-text-delay {
   opacity: 0;
-  animation: fadeInText 0.75s ease-in 1.5s forwards; /* 2s delay before starting */
+  animation: fadeInText 0.5s ease-in 1.5s forwards; /* 2s delay before starting */
 }
 
 .fade-in-text-delay-2 {
   opacity: 0;
-  animation: fadeInText 0.75s ease-in 3s forwards; /* 2s delay before starting */
+  animation: fadeInText 0.5s ease-in 3s forwards; /* 2s delay before starting */
 }
 
 .fade-out {
   opacity: 0;
-  transition: opacity 0.75s ease-out;
+  transition: opacity 0.5s ease-out;
 }
 
 .fade-in {
   opacity: 1;
-  transition: opacity 1s ease-in;
-}
-
-.fade-in-delay {
-  opacity: 1;
-  transition: opacity 1s ease-in;
-  animation-delay: 2s; /* Delay the start by 0.5 seconds */
-}
-
-.fade-in-delayy {
-  opacity: 1;
-  transition: opacity 1s ease-in;
-  animation-delay: 4s; /* Delay the start by 0.5 seconds */
+  transition: opacity 0.5s ease-in;
 }
 
 .youtube-display {
@@ -108,6 +100,16 @@ a:hover {
   width: 100%;
   /* background-color: #a696c0; */
   background-color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 8%;
+  text-align: right;
 }
 
 .main-content {
@@ -117,7 +119,7 @@ a:hover {
   left: 8%;
   width: 92%;
   height: 100%;
-  position: relative;
+  /* position: relative; */
   background-color: rgb(255, 225, 0);
 }
 
