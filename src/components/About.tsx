@@ -31,7 +31,6 @@ const About = () => {
         <div className="next">
           <h3>up next</h3>
           <ul>
-            <li style={{ marginBottom: 0 }}>housing and land use policy</li>
             <li style={{ marginBottom: 0 }}>civic tech</li>
             <li style={{ marginBottom: 0 }}>making more art</li>
             <li style={{ marginBottom: 0 }}>volunteering in Boston (home)</li>
@@ -39,13 +38,14 @@ const About = () => {
         </div>
       </div>
       <p>
-        i'm a generalist with too many interests too easily summarize :'), but
-        to list a couple in order of recency: i'm interested in applied
-        cryptography, urban planning and design, and combinatorics and
-        theoretical computer science. i like to daydream about
-        community-building and what it means to build a just community at
-        various scales. i also love love love all kinds of art, including dance,
-        music, and visual arts.
+        i'm a generalist with too many interests too easily summarize :').
+        things that i've been reading about can be found on my curius page
+        (click the book icon on the left). just to list a couple in order of
+        recency: i'm interested in applied cryptography, urban planning and
+        design, and combinatorics and theoretical computer science. i like to
+        daydream about community-building and what it means to build a just
+        community at various scales. i also love love love all kinds of art,
+        including dance, music, and visual arts.
       </p>
       <p>
         in college, i did a good amount of math research through
