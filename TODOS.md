@@ -1,5 +1,6 @@
 urgent:
 [x] add socials in top right above line
+[x] fix resume
 [] projects page...
 [] work on garbled circuits and add that!
 

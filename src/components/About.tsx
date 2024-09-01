@@ -40,12 +40,12 @@ const About = () => {
       <p>
         i'm a generalist with too many interests too easily summarize :').
         things that i've been reading about can be found on my curius page
-        (click the book icon on the left). just to list a couple in order of
+        (click the book icon on the left), but just to list a couple in order of
         recency: i'm interested in applied cryptography, urban planning and
         design, and combinatorics and theoretical computer science. i like to
         daydream about community-building and what it means to build a just
         community at various scales. i also love love love all kinds of art,
-        including dance, music, and visual arts.
+        including dance, music (i play piano and alto sax!), and visual arts.
       </p>
       <p>
         in college, i did a good amount of math research through
