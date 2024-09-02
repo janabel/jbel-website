@@ -14,9 +14,11 @@ const Words = () => {
       </p>
       <ul>
         <li style={{ marginBottom: 0 }}>
-          <a href="https://janabel.substack.com/p/mosaic">
+          <a href="https://janabel.substack.com/p/an-ode-to-dance">
             mosaic | Sep 2, 2024
           </a>
+        </li>
+        <li style={{ marginBottom: 0 }}>
           <a href="https://janabel.substack.com/p/an-ode-to-dance">
             an ode to dance | Jun 14, 2024
           </a>
