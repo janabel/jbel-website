@@ -138,7 +138,7 @@ const Dance = () => {
         ></FilterButton>
       </div>
 
-      <div id="video-display-container">
+      <div className="video-display-container">
         {/* ROW 0 */}
 
         <YouTubeDisplay

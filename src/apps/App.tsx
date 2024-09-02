@@ -19,66 +19,68 @@ import Curius from "../../public/curius.png";
 
 export function App() {
   return (
-    <Router>
-      <div className="main-content-wrapper">
-        <div className="socials">
-          {/* manually adjusting bc images handdrawn */}
-          <a
-            href="https://www.instagram.com/janabel.x/"
-            style={{ paddingRight: "12px" }}
-          >
-            <img src={Insta} width={"55%"} className="social-image" />
-          </a>
-          <a
-            href="mailto:janabeltxia@gmail.com"
-            style={{ paddingRight: "16px" }}
-          >
-            <img src={Email} width={"50%"} className="social-image" />
-          </a>
-          <a
-            href="https://www.messenger.com/t/janabelxia"
-            style={{ paddingRight: "16px" }}
-          >
-            <img src={Messenger} width={"50%"} className="social-image" />
-          </a>
-          <a
-            href="https://twitter.com/JanabelXia"
-            style={{ paddingRight: "16px", paddingTop: "4px" }}
-          >
-            <img src={Twitter} width={"50%"} className="social-image" />
-          </a>
-          <a
-            href="https://curius.app/janabel-xia"
-            style={{ paddingRight: "16px", paddingTop: "8px" }}
-          >
-            <img src={Curius} width={"50%"} className="social-image" />
-          </a>
-        </div>
-        <div className="main-content">
-          <nav>
-            <div className="ul nav">
-              <Link to="/">home</Link>
-              <Link to="/about">about</Link>
-              <Link to="/dance">dance</Link>
-              <Link to="/words">words</Link>
-              {/* <Link to="/projects">projects</Link> */}
-              {/* <Link to="/art">Art</Link> */}
-              <Link to="/resume">resume</Link>
+    <div>
+      <Router>
+        <div className="main-content-wrapper">
+          <div className="socials">
+            {/* manually adjusting bc images handdrawn */}
+            <a
+              href="https://www.instagram.com/janabel.x/"
+              style={{ paddingRight: "12px" }}
+            >
+              <img src={Insta} width={"55%"} className="social-image" />
+            </a>
+            <a
+              href="mailto:janabeltxia@gmail.com"
+              style={{ paddingRight: "16px" }}
+            >
+              <img src={Email} width={"50%"} className="social-image" />
+            </a>
+            <a
+              href="https://www.messenger.com/t/janabelxia"
+              style={{ paddingRight: "16px" }}
+            >
+              <img src={Messenger} width={"50%"} className="social-image" />
+            </a>
+            <a
+              href="https://twitter.com/JanabelXia"
+              style={{ paddingRight: "16px", paddingTop: "4px" }}
+            >
+              <img src={Twitter} width={"50%"} className="social-image" />
+            </a>
+            <a
+              href="https://curius.app/janabel-xia"
+              style={{ paddingRight: "16px", paddingTop: "8px" }}
+            >
+              <img src={Curius} width={"50%"} className="social-image" />
+            </a>
+          </div>
+          <div className="main-content">
+            <nav>
+              <div className="ul nav">
+                <Link to="/">home</Link>
+                <Link to="/about">about</Link>
+                <Link to="/dance">dance</Link>
+                <Link to="/words">words</Link>
+                {/* <Link to="/projects">projects</Link> */}
+                {/* <Link to="/art">Art</Link> */}
+                <Link to="/resume">resume</Link>
+              </div>
+            </nav>
+            <div className="page-display">
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/dance" element={<Dance />} />
+                <Route path="/words" element={<Words />} />
+                {/* <Route path="/projects" element={<Projects />} /> */}
+                {/* <Route path="/art" element={<Art />} /> */}
+                <Route path="/resume" element={<Resume />} />
+              </Routes>
             </div>
-          </nav>
-          <div className="page-display">
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/dance" element={<Dance />} />
-              <Route path="/words" element={<Words />} />
-              {/* <Route path="/projects" element={<Projects />} /> */}
-              {/* <Route path="/art" element={<Art />} /> */}
-              <Route path="/resume" element={<Resume />} />
-            </Routes>
           </div>
         </div>
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 }

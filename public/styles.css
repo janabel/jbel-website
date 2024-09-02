@@ -204,13 +204,14 @@ nav {
   padding-right: 68px;
 }
 
-/* .video-display-container {
+.video-display-container {
   position: relative;
   flex-direction: column;
   width: 100%;
-  flex: 1;
+  /* flex: 1; */
+  height: 80%;
   box-sizing: border-box;
-} */
+}
 
 html {
   height: 100%;
