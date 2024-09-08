@@ -51,9 +51,9 @@ const YouTubeDisplay = (props: YouTubeDisplayProps) => {
 
   // set column offsets here
   const colToOffset: Record<number, number> = {
-    2: 1.15,
-    0: 1.4,
-    1: 0.9,
+    2: 1.45,
+    0: 1.7,
+    1: 1.2,
   };
 
   const TypeToColor: Record<string, string> = {
@@ -80,7 +80,7 @@ const YouTubeDisplay = (props: YouTubeDisplayProps) => {
       ).toString() + "%",
     top:
       (
-        -2 +
+        -4 +
         props.filterHeightPercent +
         props.ytHeightPercentOfWindow * colToOffset[props.col] + // initial offset
         (props.ytHeightPercentOfWindow + props.hMarginPercent) * props.row

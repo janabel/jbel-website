@@ -35,7 +35,7 @@ const Dance = () => {
   const filterHeightRatio = 0.1;
   const filterHeightPercent = filterHeightRatio * 100; // for jbel's poor conversion brain
   const wMarginPercent = 4; // as a % of window width
-  const hMarginPercent = 5;
+  const hMarginPercent = 6;
 
   const updateWidth = () => {
     if (divRef.current) {
@@ -138,458 +138,458 @@ const Dance = () => {
         ></FilterButton>
       </div>
 
-      <div className="video-display-container">
-        {/* ROW 0 */}
+      {/* <div className="video-display-container"> */}
+      {/* ROW 0 */}
 
-        <YouTubeDisplay
-          filters={filters}
-          row={0}
-          col={0}
-          ytWidth={ytWidth}
-          ytHeight={ytHeight}
-          wMarginPercent={wMarginPercent}
-          hMarginPercent={hMarginPercent}
-          ytWidthPercentOfWindow={ytWidthPercentOfWindow}
-          ytHeightPercentOfWindow={ytHeightPercentOfWindow}
-          filterHeightPercent={filterHeightPercent}
-          videoId="ncGWsggOKG4"
-          id="new dorp (sp23)"
-          type={DanceTypes.choreo}
-        />
+      <YouTubeDisplay
+        filters={filters}
+        row={0}
+        col={0}
+        ytWidth={ytWidth}
+        ytHeight={ytHeight}
+        wMarginPercent={wMarginPercent}
+        hMarginPercent={hMarginPercent}
+        ytWidthPercentOfWindow={ytWidthPercentOfWindow}
+        ytHeightPercentOfWindow={ytHeightPercentOfWindow}
+        filterHeightPercent={filterHeightPercent}
+        videoId="ncGWsggOKG4"
+        id="new dorp (sp23)"
+        type={DanceTypes.choreo}
+      />
 
-        <YouTubeDisplay
-          filters={filters}
-          row={0}
-          col={1}
-          ytWidth={ytWidth}
-          ytHeight={ytHeight}
-          wMarginPercent={wMarginPercent}
-          hMarginPercent={hMarginPercent}
-          ytWidthPercentOfWindow={ytWidthPercentOfWindow}
-          ytHeightPercentOfWindow={ytHeightPercentOfWindow}
-          filterHeightPercent={filterHeightPercent}
-          videoId="uP0f47dahmw"
-          id="trad trio (sp23)"
-          type={DanceTypes.fxn}
-        />
+      <YouTubeDisplay
+        filters={filters}
+        row={0}
+        col={1}
+        ytWidth={ytWidth}
+        ytHeight={ytHeight}
+        wMarginPercent={wMarginPercent}
+        hMarginPercent={hMarginPercent}
+        ytWidthPercentOfWindow={ytWidthPercentOfWindow}
+        ytHeightPercentOfWindow={ytHeightPercentOfWindow}
+        filterHeightPercent={filterHeightPercent}
+        videoId="uP0f47dahmw"
+        id="trad trio (sp23)"
+        type={DanceTypes.fxn}
+      />
 
-        <YouTubeDisplay
-          filters={filters}
-          row={0}
-          col={2}
-          ytWidth={ytWidth}
-          ytHeight={ytHeight}
-          wMarginPercent={wMarginPercent}
-          hMarginPercent={hMarginPercent}
-          ytWidthPercentOfWindow={ytWidthPercentOfWindow}
-          ytHeightPercentOfWindow={ytHeightPercentOfWindow}
-          filterHeightPercent={filterHeightPercent}
-          videoId="k1t9RgYjEeY"
-          id="waves (sp22)"
-          type={DanceTypes.choreo}
-        />
+      <YouTubeDisplay
+        filters={filters}
+        row={0}
+        col={2}
+        ytWidth={ytWidth}
+        ytHeight={ytHeight}
+        wMarginPercent={wMarginPercent}
+        hMarginPercent={hMarginPercent}
+        ytWidthPercentOfWindow={ytWidthPercentOfWindow}
+        ytHeightPercentOfWindow={ytHeightPercentOfWindow}
+        filterHeightPercent={filterHeightPercent}
+        videoId="k1t9RgYjEeY"
+        id="waves (sp22)"
+        type={DanceTypes.choreo}
+      />
 
-        {/* ROW 1 */}
+      {/* ROW 1 */}
 
-        <YouTubeDisplay
-          filters={filters}
-          row={1}
-          col={0}
-          ytWidth={ytWidth}
-          ytHeight={ytHeight}
-          wMarginPercent={wMarginPercent}
-          hMarginPercent={hMarginPercent}
-          ytWidthPercentOfWindow={ytWidthPercentOfWindow}
-          ytHeightPercentOfWindow={ytHeightPercentOfWindow}
-          filterHeightPercent={filterHeightPercent}
-          videoId="kMzIfPtGBzI"
-          id="donk closer (sp24)"
-          type={DanceTypes.other}
-        />
+      <YouTubeDisplay
+        filters={filters}
+        row={1}
+        col={0}
+        ytWidth={ytWidth}
+        ytHeight={ytHeight}
+        wMarginPercent={wMarginPercent}
+        hMarginPercent={hMarginPercent}
+        ytWidthPercentOfWindow={ytWidthPercentOfWindow}
+        ytHeightPercentOfWindow={ytHeightPercentOfWindow}
+        filterHeightPercent={filterHeightPercent}
+        videoId="kMzIfPtGBzI"
+        id="donk closer (sp24)"
+        type={DanceTypes.other}
+      />
 
-        <YouTubeDisplay
-          filters={filters}
-          row={1}
-          col={1}
-          ytWidth={ytWidth}
-          ytHeight={ytHeight}
-          wMarginPercent={wMarginPercent}
-          hMarginPercent={hMarginPercent}
-          ytWidthPercentOfWindow={ytWidthPercentOfWindow}
-          ytHeightPercentOfWindow={ytHeightPercentOfWindow}
-          filterHeightPercent={filterHeightPercent}
-          videoId="q-yCmKJIziA"
-          id="youth (fa23)"
-          type={DanceTypes.teach}
-        />
+      <YouTubeDisplay
+        filters={filters}
+        row={1}
+        col={1}
+        ytWidth={ytWidth}
+        ytHeight={ytHeight}
+        wMarginPercent={wMarginPercent}
+        hMarginPercent={hMarginPercent}
+        ytWidthPercentOfWindow={ytWidthPercentOfWindow}
+        ytHeightPercentOfWindow={ytHeightPercentOfWindow}
+        filterHeightPercent={filterHeightPercent}
+        videoId="q-yCmKJIziA"
+        id="youth (fa23)"
+        type={DanceTypes.teach}
+      />
 
-        <YouTubeDisplay
-          filters={filters}
-          row={1}
-          col={2}
-          ytWidth={ytWidth}
-          ytHeight={ytHeight}
-          wMarginPercent={wMarginPercent}
-          hMarginPercent={hMarginPercent}
-          ytWidthPercentOfWindow={ytWidthPercentOfWindow}
-          ytHeightPercentOfWindow={ytHeightPercentOfWindow}
-          filterHeightPercent={filterHeightPercent}
-          videoId="yFU6dKIKDjI"
-          id="move (sp23)"
-          type={DanceTypes.fxn}
-        />
+      <YouTubeDisplay
+        filters={filters}
+        row={1}
+        col={2}
+        ytWidth={ytWidth}
+        ytHeight={ytHeight}
+        wMarginPercent={wMarginPercent}
+        hMarginPercent={hMarginPercent}
+        ytWidthPercentOfWindow={ytWidthPercentOfWindow}
+        ytHeightPercentOfWindow={ytHeightPercentOfWindow}
+        filterHeightPercent={filterHeightPercent}
+        videoId="yFU6dKIKDjI"
+        id="move (sp23)"
+        type={DanceTypes.fxn}
+      />
 
-        {/* ROW 2 */}
+      {/* ROW 2 */}
 
-        <YouTubeDisplay
-          filters={filters}
-          row={2}
-          col={0}
-          ytWidth={ytWidth}
-          ytHeight={ytHeight}
-          wMarginPercent={wMarginPercent}
-          hMarginPercent={hMarginPercent}
-          ytWidthPercentOfWindow={ytWidthPercentOfWindow}
-          ytHeightPercentOfWindow={ytHeightPercentOfWindow}
-          filterHeightPercent={filterHeightPercent}
-          videoId="K_XqThno84c"
-          id="riverbank (sp23)"
-          type={DanceTypes.fxn}
-        />
+      <YouTubeDisplay
+        filters={filters}
+        row={2}
+        col={0}
+        ytWidth={ytWidth}
+        ytHeight={ytHeight}
+        wMarginPercent={wMarginPercent}
+        hMarginPercent={hMarginPercent}
+        ytWidthPercentOfWindow={ytWidthPercentOfWindow}
+        ytHeightPercentOfWindow={ytHeightPercentOfWindow}
+        filterHeightPercent={filterHeightPercent}
+        videoId="K_XqThno84c"
+        id="riverbank (sp23)"
+        type={DanceTypes.fxn}
+      />
 
-        <YouTubeDisplay
-          filters={filters}
-          row={2}
-          col={1}
-          ytWidth={ytWidth}
-          ytHeight={ytHeight}
-          wMarginPercent={wMarginPercent}
-          hMarginPercent={hMarginPercent}
-          ytWidthPercentOfWindow={ytWidthPercentOfWindow}
-          ytHeightPercentOfWindow={ytHeightPercentOfWindow}
-          filterHeightPercent={filterHeightPercent}
-          videoId="umeFGXE1fAc"
-          id="be water (sp24 set)"
-          type={DanceTypes.choreo}
-        />
+      <YouTubeDisplay
+        filters={filters}
+        row={2}
+        col={1}
+        ytWidth={ytWidth}
+        ytHeight={ytHeight}
+        wMarginPercent={wMarginPercent}
+        hMarginPercent={hMarginPercent}
+        ytWidthPercentOfWindow={ytWidthPercentOfWindow}
+        ytHeightPercentOfWindow={ytHeightPercentOfWindow}
+        filterHeightPercent={filterHeightPercent}
+        videoId="umeFGXE1fAc"
+        id="be water (sp24 set)"
+        type={DanceTypes.choreo}
+      />
 
-        <YouTubeDisplay
-          filters={filters}
-          row={2}
-          col={2}
-          ytWidth={ytWidth}
-          ytHeight={ytHeight}
-          wMarginPercent={wMarginPercent}
-          hMarginPercent={hMarginPercent}
-          ytWidthPercentOfWindow={ytWidthPercentOfWindow}
-          ytHeightPercentOfWindow={ytHeightPercentOfWindow}
-          filterHeightPercent={filterHeightPercent}
-          videoId="8X3oSAaoCqU"
-          id="longing for joy (sp23)"
-          type={DanceTypes.other}
-        />
+      <YouTubeDisplay
+        filters={filters}
+        row={2}
+        col={2}
+        ytWidth={ytWidth}
+        ytHeight={ytHeight}
+        wMarginPercent={wMarginPercent}
+        hMarginPercent={hMarginPercent}
+        ytWidthPercentOfWindow={ytWidthPercentOfWindow}
+        ytHeightPercentOfWindow={ytHeightPercentOfWindow}
+        filterHeightPercent={filterHeightPercent}
+        videoId="8X3oSAaoCqU"
+        id="longing for joy (sp23)"
+        type={DanceTypes.other}
+      />
 
-        {/* ROW 3 */}
+      {/* ROW 3 */}
 
-        <YouTubeDisplay
-          filters={filters}
-          row={3}
-          col={0}
-          ytWidth={ytWidth}
-          ytHeight={ytHeight}
-          wMarginPercent={wMarginPercent}
-          hMarginPercent={hMarginPercent}
-          ytWidthPercentOfWindow={ytWidthPercentOfWindow}
-          ytHeightPercentOfWindow={ytHeightPercentOfWindow}
-          filterHeightPercent={filterHeightPercent}
-          videoId="4uBDtVmtsMc"
-          id="young folks (sp22)"
-          type={DanceTypes.choreo}
-        />
+      <YouTubeDisplay
+        filters={filters}
+        row={3}
+        col={0}
+        ytWidth={ytWidth}
+        ytHeight={ytHeight}
+        wMarginPercent={wMarginPercent}
+        hMarginPercent={hMarginPercent}
+        ytWidthPercentOfWindow={ytWidthPercentOfWindow}
+        ytHeightPercentOfWindow={ytHeightPercentOfWindow}
+        filterHeightPercent={filterHeightPercent}
+        videoId="4uBDtVmtsMc"
+        id="young folks (sp22)"
+        type={DanceTypes.choreo}
+      />
 
-        <YouTubeDisplay
-          filters={filters}
-          row={3}
-          col={1}
-          ytWidth={ytWidth}
-          ytHeight={ytHeight}
-          wMarginPercent={wMarginPercent}
-          hMarginPercent={hMarginPercent}
-          ytWidthPercentOfWindow={ytWidthPercentOfWindow}
-          ytHeightPercentOfWindow={ytHeightPercentOfWindow}
-          filterHeightPercent={filterHeightPercent}
-          videoId="3xTCwAY2RT0"
-          id="bathing in heaven (sp23)"
-          type={DanceTypes.teach}
-        />
+      <YouTubeDisplay
+        filters={filters}
+        row={3}
+        col={1}
+        ytWidth={ytWidth}
+        ytHeight={ytHeight}
+        wMarginPercent={wMarginPercent}
+        hMarginPercent={hMarginPercent}
+        ytWidthPercentOfWindow={ytWidthPercentOfWindow}
+        ytHeightPercentOfWindow={ytHeightPercentOfWindow}
+        filterHeightPercent={filterHeightPercent}
+        videoId="3xTCwAY2RT0"
+        id="bathing in heaven (sp23)"
+        type={DanceTypes.teach}
+      />
 
-        <YouTubeDisplay
-          filters={filters}
-          row={3}
-          col={2}
-          ytWidth={ytWidth}
-          ytHeight={ytHeight}
-          wMarginPercent={wMarginPercent}
-          hMarginPercent={hMarginPercent}
-          ytWidthPercentOfWindow={ytWidthPercentOfWindow}
-          ytHeightPercentOfWindow={ytHeightPercentOfWindow}
-          filterHeightPercent={filterHeightPercent}
-          videoId="DCOQV9wjCM8"
-          id="ambivalence (s23 set)"
-          type={DanceTypes.choreo}
-        />
+      <YouTubeDisplay
+        filters={filters}
+        row={3}
+        col={2}
+        ytWidth={ytWidth}
+        ytHeight={ytHeight}
+        wMarginPercent={wMarginPercent}
+        hMarginPercent={hMarginPercent}
+        ytWidthPercentOfWindow={ytWidthPercentOfWindow}
+        ytHeightPercentOfWindow={ytHeightPercentOfWindow}
+        filterHeightPercent={filterHeightPercent}
+        videoId="DCOQV9wjCM8"
+        id="ambivalence (s23 set)"
+        type={DanceTypes.choreo}
+      />
 
-        {/* ROW 4 */}
+      {/* ROW 4 */}
 
-        <YouTubeDisplay
-          filters={filters}
-          row={4}
-          col={0}
-          ytWidth={ytWidth}
-          ytHeight={ytHeight}
-          wMarginPercent={wMarginPercent}
-          hMarginPercent={hMarginPercent}
-          ytWidthPercentOfWindow={ytWidthPercentOfWindow}
-          ytHeightPercentOfWindow={ytHeightPercentOfWindow}
-          filterHeightPercent={filterHeightPercent}
-          videoId="2W6l9YFE0Pw"
-          id="donk closer (sp22)"
-          type={DanceTypes.other}
-        />
+      <YouTubeDisplay
+        filters={filters}
+        row={4}
+        col={0}
+        ytWidth={ytWidth}
+        ytHeight={ytHeight}
+        wMarginPercent={wMarginPercent}
+        hMarginPercent={hMarginPercent}
+        ytWidthPercentOfWindow={ytWidthPercentOfWindow}
+        ytHeightPercentOfWindow={ytHeightPercentOfWindow}
+        filterHeightPercent={filterHeightPercent}
+        videoId="2W6l9YFE0Pw"
+        id="donk closer (sp22)"
+        type={DanceTypes.other}
+      />
 
-        <YouTubeDisplay
-          filters={filters}
-          row={4}
-          col={1}
-          ytWidth={ytWidth}
-          ytHeight={ytHeight}
-          wMarginPercent={wMarginPercent}
-          hMarginPercent={hMarginPercent}
-          ytWidthPercentOfWindow={ytWidthPercentOfWindow}
-          ytHeightPercentOfWindow={ytHeightPercentOfWindow}
-          filterHeightPercent={filterHeightPercent}
-          videoId="9A2nwzA0Qtg"
-          id="daydreams (fa23)"
-          type={DanceTypes.fxn}
-        />
+      <YouTubeDisplay
+        filters={filters}
+        row={4}
+        col={1}
+        ytWidth={ytWidth}
+        ytHeight={ytHeight}
+        wMarginPercent={wMarginPercent}
+        hMarginPercent={hMarginPercent}
+        ytWidthPercentOfWindow={ytWidthPercentOfWindow}
+        ytHeightPercentOfWindow={ytHeightPercentOfWindow}
+        filterHeightPercent={filterHeightPercent}
+        videoId="9A2nwzA0Qtg"
+        id="daydreams (fa23)"
+        type={DanceTypes.fxn}
+      />
 
-        <YouTubeDisplay
-          filters={filters}
-          row={4}
-          col={2}
-          ytWidth={ytWidth}
-          ytHeight={ytHeight}
-          wMarginPercent={wMarginPercent}
-          hMarginPercent={hMarginPercent}
-          ytWidthPercentOfWindow={ytWidthPercentOfWindow}
-          ytHeightPercentOfWindow={ytHeightPercentOfWindow}
-          filterHeightPercent={filterHeightPercent}
-          videoId="383LBnDiCtw"
-          id="our roots (fa22)"
-          type={DanceTypes.teach}
-        />
+      <YouTubeDisplay
+        filters={filters}
+        row={4}
+        col={2}
+        ytWidth={ytWidth}
+        ytHeight={ytHeight}
+        wMarginPercent={wMarginPercent}
+        hMarginPercent={hMarginPercent}
+        ytWidthPercentOfWindow={ytWidthPercentOfWindow}
+        ytHeightPercentOfWindow={ytHeightPercentOfWindow}
+        filterHeightPercent={filterHeightPercent}
+        videoId="383LBnDiCtw"
+        id="our roots (fa22)"
+        type={DanceTypes.teach}
+      />
 
-        {/* ROW 5 */}
+      {/* ROW 5 */}
 
-        <YouTubeDisplay
-          filters={filters}
-          row={5}
-          col={0}
-          ytWidth={ytWidth}
-          ytHeight={ytHeight}
-          wMarginPercent={wMarginPercent}
-          hMarginPercent={hMarginPercent}
-          ytWidthPercentOfWindow={ytWidthPercentOfWindow}
-          ytHeightPercentOfWindow={ytHeightPercentOfWindow}
-          filterHeightPercent={filterHeightPercent}
-          videoId="IyaItB7dpLg"
-          id="galloping (sp22)"
-          type={DanceTypes.teach}
-        />
+      <YouTubeDisplay
+        filters={filters}
+        row={5}
+        col={0}
+        ytWidth={ytWidth}
+        ytHeight={ytHeight}
+        wMarginPercent={wMarginPercent}
+        hMarginPercent={hMarginPercent}
+        ytWidthPercentOfWindow={ytWidthPercentOfWindow}
+        ytHeightPercentOfWindow={ytHeightPercentOfWindow}
+        filterHeightPercent={filterHeightPercent}
+        videoId="IyaItB7dpLg"
+        id="galloping (sp22)"
+        type={DanceTypes.teach}
+      />
 
-        <YouTubeDisplay
-          filters={filters}
-          row={5}
-          col={1}
-          ytWidth={ytWidth}
-          ytHeight={ytHeight}
-          wMarginPercent={wMarginPercent}
-          hMarginPercent={hMarginPercent}
-          ytWidthPercentOfWindow={ytWidthPercentOfWindow}
-          ytHeightPercentOfWindow={ytHeightPercentOfWindow}
-          filterHeightPercent={filterHeightPercent}
-          videoId="2_b7H48tWCo"
-          id="WOD obsession (fa22 set)"
-          type={DanceTypes.choreo}
-        />
+      <YouTubeDisplay
+        filters={filters}
+        row={5}
+        col={1}
+        ytWidth={ytWidth}
+        ytHeight={ytHeight}
+        wMarginPercent={wMarginPercent}
+        hMarginPercent={hMarginPercent}
+        ytWidthPercentOfWindow={ytWidthPercentOfWindow}
+        ytHeightPercentOfWindow={ytHeightPercentOfWindow}
+        filterHeightPercent={filterHeightPercent}
+        videoId="2_b7H48tWCo"
+        id="WOD obsession (fa22 set)"
+        type={DanceTypes.choreo}
+      />
 
-        <YouTubeDisplay
-          filters={filters}
-          row={5}
-          col={2}
-          ytWidth={ytWidth}
-          ytHeight={ytHeight}
-          wMarginPercent={wMarginPercent}
-          hMarginPercent={hMarginPercent}
-          ytWidthPercentOfWindow={ytWidthPercentOfWindow}
-          ytHeightPercentOfWindow={ytHeightPercentOfWindow}
-          filterHeightPercent={filterHeightPercent}
-          videoId="J_gQEIkUl6s"
-          id="contaminated (fa20 set)"
-          type={DanceTypes.fxn}
-        />
+      <YouTubeDisplay
+        filters={filters}
+        row={5}
+        col={2}
+        ytWidth={ytWidth}
+        ytHeight={ytHeight}
+        wMarginPercent={wMarginPercent}
+        hMarginPercent={hMarginPercent}
+        ytWidthPercentOfWindow={ytWidthPercentOfWindow}
+        ytHeightPercentOfWindow={ytHeightPercentOfWindow}
+        filterHeightPercent={filterHeightPercent}
+        videoId="J_gQEIkUl6s"
+        id="contaminated (fa20 set)"
+        type={DanceTypes.fxn}
+      />
 
-        {/* ROW 6 */}
+      {/* ROW 6 */}
 
-        <YouTubeDisplay
-          filters={filters}
-          row={6}
-          col={0}
-          ytWidth={ytWidth}
-          ytHeight={ytHeight}
-          wMarginPercent={wMarginPercent}
-          hMarginPercent={hMarginPercent}
-          ytWidthPercentOfWindow={ytWidthPercentOfWindow}
-          ytHeightPercentOfWindow={ytHeightPercentOfWindow}
-          filterHeightPercent={filterHeightPercent}
-          videoId="KkhC7iOhtfg"
-          id="memory box (fa23 set)"
-          type={DanceTypes.choreo}
-        />
+      <YouTubeDisplay
+        filters={filters}
+        row={6}
+        col={0}
+        ytWidth={ytWidth}
+        ytHeight={ytHeight}
+        wMarginPercent={wMarginPercent}
+        hMarginPercent={hMarginPercent}
+        ytWidthPercentOfWindow={ytWidthPercentOfWindow}
+        ytHeightPercentOfWindow={ytHeightPercentOfWindow}
+        filterHeightPercent={filterHeightPercent}
+        videoId="KkhC7iOhtfg"
+        id="memory box (fa23 set)"
+        type={DanceTypes.choreo}
+      />
 
-        <YouTubeDisplay
-          filters={filters}
-          row={6}
-          col={1}
-          ytWidth={ytWidth}
-          ytHeight={ytHeight}
-          wMarginPercent={wMarginPercent}
-          hMarginPercent={hMarginPercent}
-          ytWidthPercentOfWindow={ytWidthPercentOfWindow}
-          ytHeightPercentOfWindow={ytHeightPercentOfWindow}
-          filterHeightPercent={filterHeightPercent}
-          videoId="q-yCmKJIziA"
-          id="youth (fa23)"
-          type={DanceTypes.other}
-        />
+      <YouTubeDisplay
+        filters={filters}
+        row={6}
+        col={1}
+        ytWidth={ytWidth}
+        ytHeight={ytHeight}
+        wMarginPercent={wMarginPercent}
+        hMarginPercent={hMarginPercent}
+        ytWidthPercentOfWindow={ytWidthPercentOfWindow}
+        ytHeightPercentOfWindow={ytHeightPercentOfWindow}
+        filterHeightPercent={filterHeightPercent}
+        videoId="q-yCmKJIziA"
+        id="youth (fa23)"
+        type={DanceTypes.other}
+      />
 
-        <YouTubeDisplay
-          filters={filters}
-          row={6}
-          col={2}
-          ytWidth={ytWidth}
-          ytHeight={ytHeight}
-          wMarginPercent={wMarginPercent}
-          hMarginPercent={hMarginPercent}
-          ytWidthPercentOfWindow={ytWidthPercentOfWindow}
-          ytHeightPercentOfWindow={ytHeightPercentOfWindow}
-          filterHeightPercent={filterHeightPercent}
-          videoId="yFU6dKIKDjI"
-          id="move (sp23)"
-          type={DanceTypes.choreo}
-        />
+      <YouTubeDisplay
+        filters={filters}
+        row={6}
+        col={2}
+        ytWidth={ytWidth}
+        ytHeight={ytHeight}
+        wMarginPercent={wMarginPercent}
+        hMarginPercent={hMarginPercent}
+        ytWidthPercentOfWindow={ytWidthPercentOfWindow}
+        ytHeightPercentOfWindow={ytHeightPercentOfWindow}
+        filterHeightPercent={filterHeightPercent}
+        videoId="yFU6dKIKDjI"
+        id="move (sp23)"
+        type={DanceTypes.choreo}
+      />
 
-        {/* ROW 7 */}
+      {/* ROW 7 */}
 
-        <YouTubeDisplay
-          filters={filters}
-          row={7}
-          col={0}
-          ytWidth={ytWidth}
-          ytHeight={ytHeight}
-          wMarginPercent={wMarginPercent}
-          hMarginPercent={hMarginPercent}
-          ytWidthPercentOfWindow={ytWidthPercentOfWindow}
-          ytHeightPercentOfWindow={ytHeightPercentOfWindow}
-          filterHeightPercent={filterHeightPercent}
-          videoId="BWPVKQrEicM"
-          id="mountains (sp21 set)"
-          type={DanceTypes.fxn}
-        />
+      <YouTubeDisplay
+        filters={filters}
+        row={7}
+        col={0}
+        ytWidth={ytWidth}
+        ytHeight={ytHeight}
+        wMarginPercent={wMarginPercent}
+        hMarginPercent={hMarginPercent}
+        ytWidthPercentOfWindow={ytWidthPercentOfWindow}
+        ytHeightPercentOfWindow={ytHeightPercentOfWindow}
+        filterHeightPercent={filterHeightPercent}
+        videoId="BWPVKQrEicM"
+        id="mountains (sp21 set)"
+        type={DanceTypes.fxn}
+      />
 
-        <YouTubeDisplay
-          filters={filters}
-          row={7}
-          col={1}
-          ytWidth={ytWidth}
-          ytHeight={ytHeight}
-          wMarginPercent={wMarginPercent}
-          hMarginPercent={hMarginPercent}
-          ytWidthPercentOfWindow={ytWidthPercentOfWindow}
-          ytHeightPercentOfWindow={ytHeightPercentOfWindow}
-          filterHeightPercent={filterHeightPercent}
-          videoId="Lb9yNvTn-3w"
-          id="beautiful scenery (fa21)"
-          type={DanceTypes.teach}
-        />
+      <YouTubeDisplay
+        filters={filters}
+        row={7}
+        col={1}
+        ytWidth={ytWidth}
+        ytHeight={ytHeight}
+        wMarginPercent={wMarginPercent}
+        hMarginPercent={hMarginPercent}
+        ytWidthPercentOfWindow={ytWidthPercentOfWindow}
+        ytHeightPercentOfWindow={ytHeightPercentOfWindow}
+        filterHeightPercent={filterHeightPercent}
+        videoId="Lb9yNvTn-3w"
+        id="beautiful scenery (fa21)"
+        type={DanceTypes.teach}
+      />
 
-        <YouTubeDisplay
-          filters={filters}
-          row={7}
-          col={2}
-          ytWidth={ytWidth}
-          ytHeight={ytHeight}
-          wMarginPercent={wMarginPercent}
-          hMarginPercent={hMarginPercent}
-          ytWidthPercentOfWindow={ytWidthPercentOfWindow}
-          ytHeightPercentOfWindow={ytHeightPercentOfWindow}
-          filterHeightPercent={filterHeightPercent}
-          videoId="JxnBIjFovpY"
-          id="missb (fa21)"
-          type={DanceTypes.other}
-        />
+      <YouTubeDisplay
+        filters={filters}
+        row={7}
+        col={2}
+        ytWidth={ytWidth}
+        ytHeight={ytHeight}
+        wMarginPercent={wMarginPercent}
+        hMarginPercent={hMarginPercent}
+        ytWidthPercentOfWindow={ytWidthPercentOfWindow}
+        ytHeightPercentOfWindow={ytHeightPercentOfWindow}
+        filterHeightPercent={filterHeightPercent}
+        videoId="JxnBIjFovpY"
+        id="missb (fa21)"
+        type={DanceTypes.other}
+      />
 
-        {/* ROW 8 */}
+      {/* ROW 8 */}
 
-        <YouTubeDisplay
-          filters={filters}
-          row={8}
-          col={0}
-          ytWidth={ytWidth}
-          ytHeight={ytHeight}
-          wMarginPercent={wMarginPercent}
-          hMarginPercent={hMarginPercent}
-          ytWidthPercentOfWindow={ytWidthPercentOfWindow}
-          ytHeightPercentOfWindow={ytHeightPercentOfWindow}
-          filterHeightPercent={filterHeightPercent}
-          videoId="fBdlTrB5FRE"
-          id="stranger in the north (sp21)"
-          type={DanceTypes.other}
-        />
+      <YouTubeDisplay
+        filters={filters}
+        row={8}
+        col={0}
+        ytWidth={ytWidth}
+        ytHeight={ytHeight}
+        wMarginPercent={wMarginPercent}
+        hMarginPercent={hMarginPercent}
+        ytWidthPercentOfWindow={ytWidthPercentOfWindow}
+        ytHeightPercentOfWindow={ytHeightPercentOfWindow}
+        filterHeightPercent={filterHeightPercent}
+        videoId="fBdlTrB5FRE"
+        id="stranger in the north (sp21)"
+        type={DanceTypes.other}
+      />
 
-        <YouTubeDisplay
-          filters={filters}
-          row={8}
-          col={1}
-          ytWidth={ytWidth}
-          ytHeight={ytHeight}
-          wMarginPercent={wMarginPercent}
-          hMarginPercent={hMarginPercent}
-          ytWidthPercentOfWindow={ytWidthPercentOfWindow}
-          ytHeightPercentOfWindow={ytHeightPercentOfWindow}
-          filterHeightPercent={filterHeightPercent}
-          videoId="8o2J81Y0sTI"
-          id="delilah (fa21 set)"
-          type={DanceTypes.choreo}
-        />
+      <YouTubeDisplay
+        filters={filters}
+        row={8}
+        col={1}
+        ytWidth={ytWidth}
+        ytHeight={ytHeight}
+        wMarginPercent={wMarginPercent}
+        hMarginPercent={hMarginPercent}
+        ytWidthPercentOfWindow={ytWidthPercentOfWindow}
+        ytHeightPercentOfWindow={ytHeightPercentOfWindow}
+        filterHeightPercent={filterHeightPercent}
+        videoId="8o2J81Y0sTI"
+        id="delilah (fa21 set)"
+        type={DanceTypes.choreo}
+      />
 
-        <YouTubeDisplay
-          filters={filters}
-          row={8}
-          col={2}
-          ytWidth={ytWidth}
-          ytHeight={ytHeight}
-          wMarginPercent={wMarginPercent}
-          hMarginPercent={hMarginPercent}
-          ytWidthPercentOfWindow={ytWidthPercentOfWindow}
-          ytHeightPercentOfWindow={ytHeightPercentOfWindow}
-          filterHeightPercent={filterHeightPercent}
-          videoId="Y4QA670NxBI"
-          id="swan geese (sp21)"
-          type={DanceTypes.teach}
-        />
-      </div>
+      <YouTubeDisplay
+        filters={filters}
+        row={8}
+        col={2}
+        ytWidth={ytWidth}
+        ytHeight={ytHeight}
+        wMarginPercent={wMarginPercent}
+        hMarginPercent={hMarginPercent}
+        ytWidthPercentOfWindow={ytWidthPercentOfWindow}
+        ytHeightPercentOfWindow={ytHeightPercentOfWindow}
+        filterHeightPercent={filterHeightPercent}
+        videoId="Y4QA670NxBI"
+        id="swan geese (sp21)"
+        type={DanceTypes.teach}
+      />
     </div>
+    // </div>
   );
 };
 
