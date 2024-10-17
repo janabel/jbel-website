@@ -32,9 +32,8 @@ const About = () => {
           <h3>current quests</h3>
           <ul>
             <li style={{ marginBottom: 0 }}>
-              interning at Justice 4 Housing{" "}
-              <a href="https://justice4housing.org/">Justice 4 Housing (J4H)</a>{" "}
-              in Boston (my home)
+              interning at{" "}
+              <a href="https://justice4housing.org/">Justice 4 Housing (J4H)</a>
             </li>
             <li style={{ marginBottom: 0 }}>
               a bit more web development + applied cryptography
