@@ -36,7 +36,7 @@ const About = () => {
               <a href="https://justice4housing.org/">Justice 4 Housing (J4H)</a>
             </li>
             <li style={{ marginBottom: 0 }}>
-              a bit more web development + applied cryptography
+              some more web dev + applied cryptography
             </li>
             <li style={{ marginBottom: 0 }}>thinking about civic tech</li>
             <li style={{ marginBottom: 0 }}>dancing and making art</li>
