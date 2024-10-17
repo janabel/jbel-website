@@ -11,10 +11,16 @@
   line-height: 1.5;
 }
 
+.current,
 .next {
-  position: relative;
-  right: 15%;
+  flex: 1; /* Ensure both divs take up equal space */
+  margin: 0 10px; /* Add a margin to create space between the two lists */
 }
+
+/* .next {
+  position: relative;
+  right: 10%;
+} */
 
 ul {
   margin-top: 8px;
