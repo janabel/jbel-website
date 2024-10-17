@@ -6,7 +6,7 @@ const About = () => {
     <div className="page-text fade-in-text">
       <div className="current-next">
         <div className="current">
-          <h3>current quests</h3>
+          <h3>recent quests</h3>
           <ul>
             <li style={{ marginBottom: 0 }}>
               applied cryptography with <a href="https://0xparc.org/">0xparc</a>
@@ -29,11 +29,18 @@ const About = () => {
           </ul>
         </div>
         <div className="next">
-          <h3>up next</h3>
+          <h3>current quests</h3>
           <ul>
-            <li style={{ marginBottom: 0 }}>civic tech</li>
-            <li style={{ marginBottom: 0 }}>making more art</li>
-            <li style={{ marginBottom: 0 }}>volunteering in Boston (home)</li>
+            <li style={{ marginBottom: 0 }}>
+              interning at Justice 4 Housing{" "}
+              <a href="https://justice4housing.org/">Justice 4 Housing (J4H)</a>{" "}
+              in Boston (my home)
+            </li>
+            <li style={{ marginBottom: 0 }}>
+              a bit more web development + applied cryptography
+            </li>
+            <li style={{ marginBottom: 0 }}>thinking about civic tech</li>
+            <li style={{ marginBottom: 0 }}>dancing and making art</li>
           </ul>
         </div>
       </div>
@@ -57,11 +64,10 @@ const About = () => {
         <Link to="/dance">Dance</Link>).
       </p>
       <p>
-        some logistical information: i'm currently on a gap year before going to
-        Harvard in 2025 fall for my math PhD (back to my home!). in the
-        meantime, i'm trying to explore as much as possible outside of my
-        comfort zone. if any of this sounds interesting to you, please reach
-        out! i'd love to chat :)
+        while my background is primarily in theoretical math research spaces,
+        i'm trying to explore as much as possible outside of my comfort zone. if
+        any of this sounds interesting to you, please reach out! i'd love to
+        chat :)
       </p>
     </div>
   );
