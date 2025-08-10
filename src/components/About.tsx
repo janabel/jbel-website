@@ -16,7 +16,7 @@ const About = () => {
               in Taiwan
             </li>
             <li style={{ marginBottom: 0 }}>
-              teaching at
+              teaching at{" "}
               <a href="https://g2mathprogram.org/">G2 math program</a> as an
               instructor
             </li>
@@ -39,7 +39,7 @@ const About = () => {
               </a>
             </li>
             <li style={{ marginBottom: 0 }}>
-              dancing with Dance Revelasian (come to our upcoming
+              dancing with Dance Revelasian (come to our upcoming{" "}
               <a href="https://www.dancerevelasian.com/tickets">show</a>!!!)
             </li>
             <li style={{ marginBottom: 0 }}>
