@@ -53,15 +53,13 @@ const About = () => {
         </div>
       </div>
       <p>
-        i'm a generalist with too many interests too easily summarize :').
-        things that i've been reading about can be found on my curius page
-        (click the book icon on the left), but just to list a couple in order of
-        recency: i'm interested in applied cryptography, urban planning and
-        housing justice, and combinatorics and theoretical computer science. i
-        like to daydream about community-building and what it means to build a
-        just community at various scales. i also love love love all kinds of
-        art, including dance, music (i play piano and alto sax), and visual
-        arts.
+        i'm interested in theoretical and applied cryptography, privacy rights,
+        urban planning and housing justice. i like to daydream about
+        community-building and what it means to build a just community at
+        various scales. i also love love love all kinds of art, including dance,
+        music (i play piano and alto sax), and visual arts. things that i've
+        been reading about can be found on my curius page (click the book icon
+        on the left).
       </p>
       <p>
         in college, i spent my summers doing math research through
