@@ -47,33 +47,33 @@ const About = () => {
               <a href="https://justice4housing.org/">Justice 4 Housing (J4H)</a>
             </li>
             <li style={{ marginBottom: 0 }}>
-              getting ready to start my math PhD at Harvard this fall (2025)
+              starting my math PhD at Harvard this fall (2025)
             </li>
           </ul>
         </div>
       </div>
       <p>
-        i'm interested in theoretical and applied cryptography, privacy rights,
-        urban planning and housing justice. i like to daydream about
-        community-building and what it means to build a just community at
-        various scales. i also love love love all kinds of art, including dance,
-        music (i play piano and alto sax), and visual arts. things that i've
-        been reading about can be found on my curius page (click the book icon
-        on the left).
+        i'm primarily interested in the cryptography, mathematics behind
+        cryptography, privacy rights, and also have interests in urban planning
+        and housing justice. i like to daydream about community-building and
+        what it means to build a just community at various scales. i also love
+        all kinds of art, from dance to music (i play piano and alto sax) to
+        visual arts. things that i've been reading about can be found on my
+        curius page (click the book icon on the left).
       </p>
       <p>
         in college, i spent my summers doing math research through
         nationally-funded REU (research experience for undergraduates) programs.
         in a past life, i also participated in math olympiads such as the USAMO
         and the <a href="https://www.egmo.org/people/person1512/">EGMO</a>.
-        outside of academics, i've spent most of my time dancing and
-        choreographing (see <Link to="/dance">Dance</Link>).
+        outside of academics, i spend most of my time dancing and choreographing
+        (see <Link to="/dance">Dance</Link>).
       </p>
       <p>
-        while my background is primarily in theoretical math research spaces,
-        i'm trying to explore as much as possible outside of my comfort zone. if
-        any of this sounds interesting to you, please reach out! i'd love to
-        chat :)
+        while my background is primarily in math research spaces, i'm always
+        trying to explore as much as possible outside of my comfort zone. if any
+        of this sounds interesting to you or you would like to collaborate,
+        please reach out! i'd love to chat :)
       </p>
     </div>
   );
