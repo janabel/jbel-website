@@ -32,6 +32,7 @@ export function App() {
             </a>
             <a
               href="mailto:janabeltxia@gmail.com"
+              target="_blank"
               style={{ paddingRight: "16px" }}
             >
               <img src={Email} width={"50%"} className="social-image" />
