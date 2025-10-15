@@ -53,13 +53,17 @@ const About = () => {
         </div>
       </div>
       <p>
-        i'm primarily interested in the cryptography, mathematics behind
-        cryptography, privacy rights, and also have interests in urban planning
-        and housing justice. i like to daydream about community-building and
-        what it means to build a just community at various scales. i also love
-        all kinds of art, from dance to music (i play piano and alto sax) to
-        visual arts. things that i've been reading about can be found on my
-        curius page (click the book icon on the left).
+        in my research, i'm primarily interested in theoretical and applied
+        cryptography, the mathematics behind cryptography, and privacy rights
+        more broadly. i also have interests in urban planning and housing
+        justice.
+      </p>
+      <p>
+        i like to daydream about community-building and what it means to build a
+        just community at various scales. i also love all kinds of art, from
+        dance to music (i play piano and alto sax) to visual arts. things that
+        i've been reading about can be found on my curius page (click the book
+        icon on the left).
       </p>
       <p>
         in college, i spent my summers doing math research through
