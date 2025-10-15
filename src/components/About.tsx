@@ -21,8 +21,12 @@ const About = () => {
               instructor
             </li>
             <li style={{ marginBottom: 0 }}>
-              dancing in new york, taking classes from THE house OGs, and
-              entering my first dance battle
+              dancing in NY, taking classes from house OGs, and entering my
+              first dance battle
+            </li>
+            <li style={{ marginBottom: 0 }}>
+              volunteering with{" "}
+              <a href="https://justice4housing.org/">Justice 4 Housing (J4H)</a>
             </li>
             <li style={{ marginBottom: 0 }}>
               finally getting my driver's license and conquering the highway
@@ -41,10 +45,6 @@ const About = () => {
             <li style={{ marginBottom: 0 }}>
               dancing with Dance Revelasian (come to our upcoming{" "}
               <a href="https://www.dancerevelasian.com/tickets">show</a>!!!)
-            </li>
-            <li style={{ marginBottom: 0 }}>
-              volunteering with{" "}
-              <a href="https://justice4housing.org/">Justice 4 Housing (J4H)</a>
             </li>
             <li style={{ marginBottom: 0 }}>
               starting my math PhD at Harvard this fall (2025)
