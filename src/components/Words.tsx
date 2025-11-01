@@ -20,7 +20,7 @@ const Words = () => {
           </a>
         </li>
         <li style={{ marginBottom: 0 }}>
-          <a href="https://janabel.substack.com/p/an-ode-to-dance">
+          <a href="https://janabel.substack.com/p/mosaic">
             mosaic | Sep 2, 2024
           </a>
         </li>

@@ -55,29 +55,29 @@ const About = () => {
       <p>
         in my research, i'm primarily interested in theoretical and applied
         cryptography, the mathematics behind cryptography, and privacy rights
-        more broadly. i also have interests in urban planning and housing
-        justice.
+        more generally.
       </p>
       <p>
         i like to daydream about community-building and what it means to build a
-        just community at various scales. i also love all kinds of art, from
-        dance to music (i play piano and alto sax) to visual arts. things that
-        i've been reading about can be found on my curius page (click the book
-        icon on the left).
-      </p>
-      <p>
-        in college, i spent my summers doing math research through
-        nationally-funded REU (research experience for undergraduates) programs.
-        in a past life, i also participated in math olympiads such as the USAMO
-        and the <a href="https://www.egmo.org/people/person1512/">EGMO</a>.
-        outside of academics, i spend most of my time dancing and choreographing
+        just community at various scales. as part of this i'm broadly curious
+        about urban planning and housing justice. i also love all kinds of art,
+        from dance to music (i play piano and alto sax) to visual arts. outside
+        of my academic life, i spend most of my time dancing and choreographing
         (see <Link to="/dance">Dance</Link>).
       </p>
       <p>
+        in college, i spent my summers doing math research through REU (research
+        experience for undergraduates) programs. in a past life, i also
+        participated in math olympiads such as the USAMO and the{" "}
+        <a href="https://www.egmo.org/people/person1512/">EGMO</a>.
+      </p>
+      <p>
         while my background is primarily in math research spaces, i'm always
-        trying to explore as much as possible outside of my comfort zone. if any
-        of this sounds interesting to you or you would like to collaborate,
-        please reach out! i'd love to chat :)
+        trying to explore as much as possible outside of my comfort zone. things
+        that i've been curious about lately can be found on my curius page
+        (click the book icon on the left). if any of this sounds interesting to
+        you or you would like to collaborate, please reach out! i'd love to chat
+        :)
       </p>
     </div>
   );
