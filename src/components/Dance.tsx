@@ -93,15 +93,15 @@ const Dance = () => {
     <div className="page-text fade-in-text" ref={divRef}>
       <p style={{ marginBottom: 0 }}>
         i've been dancing since i was 3 years old, starting out with Chinese
-        classical and folk dance.
+        classical and ethnic folk dance.
       </p>
       <p style={{ marginTop: 0, marginBottom: 0 }}>
         throughout my years dancing, i've also done ballet, jazz, and
         contemporary.
       </p>
       <p style={{ marginTop: 0, marginBottom: 0 }}>
-        more recently, i've gotten into street styles such as house and hip hop
-        freestyle.
+        more recently, i've gotten into street and club dance, such as house and
+        hip hop freestyle.
       </p>
       <p>
         tl;dr - i love moving and teaching movement! here are some things i've
@@ -268,8 +268,8 @@ const Dance = () => {
         ytWidthPercentOfWindow={ytWidthPercentOfWindow}
         ytHeightPercentOfWindow={ytHeightPercentOfWindow}
         filterHeightPercent={filterHeightPercent}
-        videoId="umeFGXE1fAc"
-        id="be water (sp24 set)"
+        videoId="-0-7082s2Xk"
+        id="kawamurra"
         type={DanceTypes.choreo}
       />
 
@@ -334,8 +334,8 @@ const Dance = () => {
         ytWidthPercentOfWindow={ytWidthPercentOfWindow}
         ytHeightPercentOfWindow={ytHeightPercentOfWindow}
         filterHeightPercent={filterHeightPercent}
-        videoId="DCOQV9wjCM8"
-        id="ambivalence (s23 set)"
+        videoId="umeFGXE1fAc"
+        id="be water (sp24 set)"
         type={DanceTypes.choreo}
       />
 
@@ -418,8 +418,8 @@ const Dance = () => {
         ytWidthPercentOfWindow={ytWidthPercentOfWindow}
         ytHeightPercentOfWindow={ytHeightPercentOfWindow}
         filterHeightPercent={filterHeightPercent}
-        videoId="2_b7H48tWCo"
-        id="WOD obsession (fa22 set)"
+        videoId="DCOQV9wjCM8"
+        id="ambivalence (s23 set)"
         type={DanceTypes.choreo}
       />
 
@@ -470,7 +470,7 @@ const Dance = () => {
         filterHeightPercent={filterHeightPercent}
         videoId="q-yCmKJIziA"
         id="youth (fa23)"
-        type={DanceTypes.other}
+        type={DanceTypes.teach}
       />
 
       <YouTubeDisplay
@@ -484,8 +484,8 @@ const Dance = () => {
         ytWidthPercentOfWindow={ytWidthPercentOfWindow}
         ytHeightPercentOfWindow={ytHeightPercentOfWindow}
         filterHeightPercent={filterHeightPercent}
-        videoId="yFU6dKIKDjI"
-        id="move (sp23)"
+        videoId="2_b7H48tWCo"
+        id="WOD obsession (fa22 set)"
         type={DanceTypes.choreo}
       />
 
