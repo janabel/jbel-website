@@ -2,7 +2,7 @@ import React from "react";
 import homeImage from "../../public/home.png";
 import "../../public/styles.css";
 
-const Home = () => {
+const FrontDoor = () => {
   return (
     <div className="page-text">
       <p className="fade-in-text">welcome! i'm janabel :)</p>
@@ -14,4 +14,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default FrontDoor;
