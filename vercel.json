@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/website_resume.pdf",
-      "destination": "/website_resume.pdf"
+      "destination": "/public/website_resume.pdf"
     },
     {
       "source": "/(.*)",

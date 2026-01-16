@@ -1,5 +1,6 @@
 import React from "react";
 import ResumeContent from "../markdown/resume.mdx";
+// import resumePDF from "../assets/website_resume.pdf";
 // import * as fs from "fs";
 
 // const resumeMarkdown = fs.readFileSync("../markdown/resume.mdx");
