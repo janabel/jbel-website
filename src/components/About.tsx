@@ -9,27 +9,22 @@ const About = () => {
           <h3>recent quests</h3>
           <ul>
             <li style={{ marginBottom: 0 }}>
-              organizing the first{" "}
-              <a href="https://community-privacy.github.io/">
-                Community Privacy Residency
-              </a>{" "}
-              in Taiwan
-            </li>
-            <li style={{ marginBottom: 0 }}>
               teaching at{" "}
               <a href="https://g2mathprogram.org/">G2 math program</a> as an
               instructor
             </li>
             <li style={{ marginBottom: 0 }}>
-              dancing in NY, taking classes from house OGs, and entering my
-              first dance battle
+              entering my first dance battle in NY in house
             </li>
             <li style={{ marginBottom: 0 }}>
               volunteering with{" "}
               <a href="https://justice4housing.org/">Justice 4 Housing (J4H)</a>
             </li>
             <li style={{ marginBottom: 0 }}>
-              finally getting my driver's license and conquering the highway
+              thinking about real-world{" "}
+              <a href="https://pse.dev/projects/zk-id">
+                privacy-preserving digital ID systems
+              </a>
             </li>
           </ul>
         </div>
@@ -37,17 +32,15 @@ const About = () => {
           <h3>current quests</h3>
           <ul>
             <li style={{ marginBottom: 0 }}>
-              thinking about real-world{" "}
-              <a href="https://pse.dev/projects/zk-id">
-                privacy-preserving digital ID systems
-              </a>
+              organizing the second{" "}
+              <a href="https://community-privacy.github.io/">
+                Community Privacy Residency
+              </a>{" "}
+              in Berlin for 2026 summer
             </li>
+            <li style={{ marginBottom: 0 }}>dancing with Dance Revelasian</li>
             <li style={{ marginBottom: 0 }}>
-              dancing with Dance Revelasian (come to our upcoming{" "}
-              <a href="https://www.dancerevelasian.com/tickets">show</a>!!!)
-            </li>
-            <li style={{ marginBottom: 0 }}>
-              starting my math PhD at Harvard this fall (2025)
+              pursuing my math PhD at Harvard since 2025 fall
             </li>
           </ul>
         </div>
@@ -55,15 +48,15 @@ const About = () => {
       <p>
         in my research, i'm primarily interested in theoretical and applied
         cryptography, the mathematics behind cryptography, and privacy rights
-        more generally.
+        more broadly.
       </p>
       <p>
         i like to daydream about community-building and what it means to build a
-        just community at various scales. as part of this i'm broadly curious
-        about urban planning and housing justice. i also love all kinds of art,
-        from dance to music (i play piano and alto sax) to visual arts. outside
-        of my academic life, i spend most of my time dancing and choreographing
-        (see <Link to="/dance">Dance</Link>).
+        just community at various scales. as part of this, i'm curious about
+        urban planning and housing justice. i also love all kinds of art, from
+        dance to music (i play piano and alto sax) to visual arts. outside of my
+        academic life, i spend most of my time dancing and choreographing (see{" "}
+        <Link to="/dance">Dance</Link>).
       </p>
       <p>
         in college, i spent my summers doing math research through REU (research
@@ -75,9 +68,8 @@ const About = () => {
         while my background is primarily in math research spaces, i'm always
         trying to explore as much as possible outside of my comfort zone. things
         that i've been curious about lately can be found on my curius page
-        (click the book icon on the left). if any of this sounds interesting to
-        you or you would like to collaborate, please reach out! i'd love to chat
-        :)
+        (click the book icon on the left). if you would like to collaborate on
+        anything, please reach out! i'd love to chat :)
       </p>
     </div>
   );
