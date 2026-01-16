@@ -203,11 +203,19 @@ nav {
   display: flex;
   position: relative;
   flex-direction: column;
-  width: 100%;
+  width: 85%;
   align-items: start;
   padding: 16px;
   padding-left: 60px;
   padding-right: 68px;
+}
+
+.pageeee-text-2 {
+  display: block; /* default for divs */
+  width: 100%;
+  padding: 16px 68px 16px 60px;
+  /* optional for text alignment */
+  text-align: left;
 }
 
 .video-display-container {
