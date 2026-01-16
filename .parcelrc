@@ -6,6 +6,9 @@
     ],
     "*.mdx": [
       "@parcel/transformer-mdx"
+    ],
+    "*.pdf": [
+      "@parcel/transformer-raw"
     ]
   },
   "resolvers": [
