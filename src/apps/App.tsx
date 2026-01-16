@@ -2,7 +2,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
-import Home from "../components/Home";
+import FrontDoor from "../components/FrontDoor";
 import About from "../components/About";
 import Words from "../components/Words";
 import Projects from "../components/Projects";
@@ -59,24 +59,24 @@ export function App() {
           <div className="main-content">
             <nav>
               <div className="ul nav">
-                <Link to="/">home</Link>
-                <Link to="/about">about</Link>
+                <Link to="/">about</Link>
                 <Link to="/dance">dance</Link>
                 <Link to="/words">words</Link>
                 {/* <Link to="/projects">projects</Link> */}
                 {/* <Link to="/art">Art</Link> */}
                 <Link to="/resume">resume</Link>
+                <Link to="/door">door</Link>
               </div>
             </nav>
             <div className="page-display">
               <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
+                <Route path="/" element={<About />} />
                 <Route path="/dance" element={<Dance />} />
                 <Route path="/words" element={<Words />} />
                 {/* <Route path="/projects" element={<Projects />} /> */}
                 {/* <Route path="/art" element={<Art />} /> */}
                 <Route path="/resume" element={<Resume />} />
+                <Route path="/door" element={<FrontDoor />} />
               </Routes>
             </div>
           </div>
